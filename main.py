@@ -9,7 +9,8 @@ app = FastAPI()
 
 # Allow CORS
 origins = [
-    "http://localhost:5173",  # Update with your React app's URL
+    "http://localhost:5173",
+    "https://agriculture-project-frontend.vercel.app"  # Update with your React app's URL
 ]
 
 app.add_middleware(
